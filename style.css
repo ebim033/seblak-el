@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #fff, #ffe6e6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.linktree-container {
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+}
+
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 4px solid #e63946;
+}
+
+.name {
+    font-size: 28px;
+    color: #222;
+    margin-bottom: 8px;
+}
+
+.bio {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 20px;
+    opacity: 0.9;
+}
+
+.links .btn-link {
+    display: block;
+    text-decoration: none;
+    background: #e63946;
+    color: white;
+    padding: 14px 0;
+    border-radius: 30px;
+    font-size: 16px;
+    margin: 8px 0;
+    transition: 0.2s;
+}
+
+.btn-link:hover {
+    background: #b8323b;
+}
+
+.gofood {
+    background: #ff8c00;
+}
+
+.gofood:hover {
+    background: #e67e00;
+}
+/* ===== GOFOOD PAGE ===== */
+
+.gofood-container {
+    min-height: 100vh;
+    background: #f6fff8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.gofood-logo {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 4px solid #00aa13;
+    margin-bottom: 15px;
+}
+
+.gofood-name {
+    font-size: 26px;
+    color: #222;
+    margin: 5px 0;
+}
+
+.gofood-branch {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.gofood-desc {
+    font-size: 14px;
+    color: #333;
+    max-width: 320px;
+    margin-bottom: 25px;
+    line-height: 1.5;
+}
+
+.gofood-btn {
+    background: #00aa13;
+    color: white;
+    text-decoration: none;
+    padding: 14px 30px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.gofood-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+.gofood-back {
+    margin-top: 25px;
+    text-decoration: none;
+    color: #00aa13;
+    font-size: 14px;
+}
